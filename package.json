@@ -1,0 +1,24 @@
+{
+	"name": "ai_text_gen",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"dev": "nodemon index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"ts-node": "^10.9.2",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"apify-client": "^2.9.3",
+		"axios": "^1.6.8",
+		"nodemon": "^3.1.0",
+		"rettiwt-api": "^2.7.0",
+		"twitter-api-sdk": "^1.2.1"
+	}
+}
